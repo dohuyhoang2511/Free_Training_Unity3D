@@ -5,12 +5,26 @@ using UnityEngine;
 public class AnimationPlayInMenu : MonoBehaviour
 {
     private Animator anim;
+
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
+        PlayAnim();
+    }
 
-        if(gameObject.tag == "Adam")
+    private void OnEnable()
+    {
+        PlayAnim();
+    }
+
+    private void PlayAnim()
+    {
+        if (gameObject.tag == "Adam")
         {
             anim.Play("Brooklyn Uprock");
         }
@@ -30,11 +44,5 @@ public class AnimationPlayInMenu : MonoBehaviour
         {
             anim.Play("Victory Idle");
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
