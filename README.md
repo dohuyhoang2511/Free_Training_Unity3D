@@ -6,3 +6,5 @@ Chính vì vậy, sau khi được tham gia khóa học, em đã tạo ra một 
 Trong game, người chơi sẽ đóng vai một vận động viên điền kinh đang luyện tập chạy bền nhưng trên đường chạy sẽ có các vật cản cùng với các đồng tiền được đặt ngẫu nhiên.
 Đường chạy sẽ có 5 làn, người chơi có thể di chuyển sang trái, phải giữa 5 làn chạy để né tránh các vật cản cũng như nhặt các đồng tiền để mua trang phục hoặc nhân vật mới ở trong shop. Mục tiêu của trò chơi chính là người chơi có thể chạy được quãng đường dài nhất.
 Các tính năng trong game gồm có : shop, màn chơi gồm các vật cản và đồng xu được sinh ra ngẫu nhiên, người chơi có thể dừng giữa màn chơi và bắt đầu lại màn chơi mới. 
+
+Link bản build WebGL : https://play.unity.com/mg/other/my-final-project-1
